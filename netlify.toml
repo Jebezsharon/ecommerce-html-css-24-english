@@ -1,0 +1,6 @@
+[[redirects]]
+from = "/*"
+to = "/commerce.html"
+status = 200
+
+
