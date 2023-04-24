@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce project</title>
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+   <!--nav starts here -->
+   <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+   <nav id="menu" class="hidden">
+    <ul class="nav-upper flex-space-around">
+        <li class="nav__list">
+            <a href="commerce.html" class="nav__link">Home</a>
+        </li>
+        <li class="nav__list">
+            <a href="register.html" class="nav__link">Register</a>
+        </li>
+        <li class="nav__list">
+            <a href="login.html" class="nav__link">Login</a>
+        </li>
+        <li class="nav__list">
+            <a href="commerce.html" class="nav__link">Logout</a>
+        </li>
+        <li class="nav__list">
+            <a href="contact.html" class="nav__link">Contact</a>
+        </li>
+        <li class="nav__list">
+            <a href="profile.html" class="nav__link">
+                <img src="./images/profile1.jpg" class="profile-icon" alt="profile">
+            </a>
+        </li>
+    </ul>
+
+    <ul class="nav-lower flex-space-around">
+        <li class="nav__list">
+            <a href="commerce.html" class="nav__link nav__brand">Green Express</a>
+        </li>
+        <li class="nav__list">
+            <a href="cart.html" class="nav__link ">
+                <span>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Cart 2 products - $124.40
+                </span>
+            </a>
+        </li>
+    </ul>
+   </nav>
+   <!--nav ends here -->
+
+   <main class="flex-center">
+    <div class="main-content">
+        <section class="product-details flex-center">
+            <div class="product-details__left flex-center">
+                <img src="./images/product1.jpg" class="product-details__img" alt="product1">
+            </div>
+            <div class="product-details__right">
+                <h3 class="product__name"> Sony v-4 Headphone</h3>
+                <p>
+                    <span class="dot green"></span>
+                    <span class="dot blue"></span>
+                    <span class="dot red"></span>
+                </p>
+                <p class="product__description">
+                     <strong>Description: </strong>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+                      beatae iusto illo error laboriosam deleniti, maiores hic obcaecati 
+                      voluptas iure odit mollitia minima tenetur incidunt odio voluptatem pers
+                      piciatis est eum eius ipsum modi necessitatibus amet ratione? Qui nostrum 
+                      cum sunt saepe necessitatibus aspernatur commodi ducimus sequi ratione persp
+                      iciatis nesciunt deserunt dignissimos fugiat adipisci, dolorum repellat quisq
+                      uam laborum a incidunt rem quia. Soluta exercitationem, magnam dicta mollitia 
+                      quos recusandae adipisci dolorem culpa dolorum sunt sint ut animi ducimus cu
+                      m odit! Quo quia excepturi distinctio dolor asperiores cupiditate exped.
+                </p>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores velit
+                     error in beatae id necessitatibus consequatur dignissimos, aliquid qui
+                      optio, doloribus exercitationem itaque repellendus a nesciunt omnis f
+                      ugit dolor inventore ea, blanditiis quis. Eligendi tempore molestiae 
+                      et dicta laboriosam ducimus maiores possimus id, eos porro quidem, quam
+                       velit nisi aliquid consequatur,
+                     odit sunt mollitia vero quisquam. Consectetur aliquid officia neque.
+                </p>
+                <h4 class="product__category">Category : Headphone </h4>
+                <h4 class="product__price">$225.99</h4>
+                <p class="product__rating"><strong>Rating:</strong> 4.5/5</p>
+                <button class="btn product__btn">Add to Cart</button>
+                <button class="btn product__btn">Back to shopping </button>
+            </div>
+        </section>
+    </div>
+   </main>
+
+   <!--footer section starts here-->
+   <footer class="footer flex-space-around">
+    <div class="flex-space-around">
+        <label for="subscribe">Subscribe to newsletter: </label>
+        <input type="email" id="subscribe" name="subscribe" class="footer__input" placeholder="your email address">
+        <button class="btn btn-subscribe">subscribe</button>
+    </div>
+    <div>
+        <p>&copy Copyright 2023 Sharon Express. All rights reserved</p>
+    </div>
+   </footer>
+   <!--footer section ends here-->
+    
+
+   <script src="./commerce.js"></script>
+</body>
+</html>
